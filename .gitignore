@@ -30,3 +30,9 @@ out/
 *.jar
 *.war
 *.ear
+
+# Ignore test reports
+test-reports/
+
+# Ignore screenshots
+screenshots/
