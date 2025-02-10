@@ -1,0 +1,21 @@
+name: Delete Merged Branches
+
+on:
+  push:
+    branches:
+      - main  # Change this if your default branch is different
+
+jobs:
+  delete-merged-branches:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pull-requests: read
+      issues: read
+
+    steps:
+      - name: Delete merged branches
+        uses: poblahblahblah/delete-merged-branch-action@v3
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
