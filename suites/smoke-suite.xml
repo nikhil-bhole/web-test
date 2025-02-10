@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="smoke" parallel="tests" thread-count="5">
+    <!-- Specify the listener here -->
+    <listeners>
+        <listener class-name="listeners.JsonReporter"/>
+    </listeners>
+
+    <test name="Smoke Tests">
+        <description>Smoke tests for core application features</description>
+        <classes>
+            <class name="smoke.GoogleSearchTest"/>
+        </classes>
+    </test>
+
+</suite>
