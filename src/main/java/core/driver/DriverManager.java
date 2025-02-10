@@ -15,13 +15,13 @@ public abstract class DriverManager {
         return driver;
     }
 
-    public WebDriver returnDriver(){
+    public WebDriver returnDriver() {
         return driver;
     }
 
 
-    public void quitDriver(){
-        if (driver != null){
+    public void quitDriver() {
+        if (driver != null) {
             driver.quit();
             driver = null;
         }
