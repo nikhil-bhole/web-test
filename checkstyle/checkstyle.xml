@@ -13,6 +13,7 @@
     <module name="TreeWalker">
         <!-- Avoid wildcard imports -->
         <module name="AvoidStarImport"/>
+        <module name="UnusedImports"/>
 
         <!-- Ensure spacing between methods -->
         <module name="EmptyLineSeparator">
