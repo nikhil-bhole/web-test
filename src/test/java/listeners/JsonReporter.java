@@ -129,7 +129,4 @@ public class JsonReporter implements IReporter, ITestListener {
         }
         return priority;
     }
-
-
 }
-
