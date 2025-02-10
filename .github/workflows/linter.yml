@@ -20,4 +20,4 @@ jobs:
 
       - name: Run Linter
         run: |
-          python java_linter.py
+          python bin/linter.py
